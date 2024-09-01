@@ -1,0 +1,10 @@
+{
+  "name": "package-b",
+  "private": true,
+  "scripts": {
+    "postinstall": "echo 'Hello from package-b'"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
